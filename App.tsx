@@ -1,12 +1,14 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import TodoApp from "./Components/TodoApp";
+import TodoApp from "./Components/TodoApp/TodoApp";
+import AppAlert from "./Components/Alert";
 
 export default function App() {
   return (
     <>
       <StatusBar style="auto" />
       <TodoApp />
+      {/* <AppAlert /> */}
     </>
   );
 }
